@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Выпадающее меню</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="menu">
+    <ul class="menu-list">
+      <li class="menu-item">
+        <button class="menu-toggle">Главная</button>
+      </li>
+
+      <li class="menu-item has-submenu">
+        <button class="menu-toggle">Каталог ▾</button>
+        <ul class="submenu">
+          <li class="menu-item has-submenu">
+            <button class="menu-toggle">Мебель ▾</button>
+            <ul class="submenu">
+              <li><a href="https://example.com">Стулья</a></li>
+              <li><a href="https://example.com">Столы</a></li>
+            </ul>
+          </li>
+          <li><a href="https://example.com">Освещение</a></li>
+        </ul>
+      </li>
+
+      <li><a href="https://example.com">Контакты</a></li>
+    </ul>
+  </nav>
+
+  <script src="script.js"></script>
+</body>
+</html>
